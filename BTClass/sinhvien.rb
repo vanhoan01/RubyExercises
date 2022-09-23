@@ -4,34 +4,28 @@
 # In ra các thông tin của sinh viên
 
 class SinhVien
-    def initialize(msv, hovaten, diachi)
-       @sv_msv = msv
-       @sv_hovaten = hovaten
-       @sv_diachi = diachi
-    end
-
-    def nhapDiem_dtb
+    attr_accessor :toan, :ly, :hoa
+    def initialize
         print "Nhap diem toan: "
-        @sv_toan = gets.to_f
+        @toan = gets.to_f
         print "Nhap diem ly: "
-        @sv_ly = gets.to_f
+        @ly = gets.to_f
         print "Nhap diem hoa: "
-        @sv_hoa = gets.to_f
-        $sv_dtb = (@sv_toan + @sv_ly + @sv_hoa)/3
+        @hoa = gets.to_f
     end
 
-    def thongTin
-        puts("Ma sinh vien: #{@sv_msv}")
-        puts("Ho va ten: #{@sv_hovaten}")
-        puts("Dia chi: #{@sv_diachi}")
-        puts("Diem Toan: #{@sv_toan}")
-        puts("Diem Ly: #{@sv_ly}")
-        puts("DIem Hoa: #{@sv_hoa}")
-        puts("Diem trung binh: #{$sv_dtb}")
+    def grade_info
+        puts("Diem Toan: #{@toan}")
+        puts("Diem Ly: #{@ly}")
+        puts("DIem Hoa: #{@hoa}")
+        puts("Diem trung binh: #{average_grade}")
+    end
+
+    def average_grade
+        return ((@toan + @ly + @hoa)/3).round(2)
     end
  end
 
- sv = SinhVien.new("SV001", "Nguyễn Văn Hoàn", "Hải Châu, Đà Nẵng")
- sv.nhapDiem_dtb
+ sv = SinhVien.new
  puts("\nThong tin sinh vien:")
- sv.thongTin
+ sv.grade_info
