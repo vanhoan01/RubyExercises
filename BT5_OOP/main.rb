@@ -65,7 +65,7 @@ end
 class ManagerOfficer
     attr_accessor :officers
     def initialize()
-        @officers = Array.new
+        @officers = []
     end
     
     def addOfficer(officer)
@@ -77,7 +77,7 @@ class ManagerOfficer
     end
 
     def showListInforOfficer
-        @officers.each{ |of| of.toString}     
+        @officers.each{ |of| puts of.toString}
     end
 end
 
@@ -115,7 +115,7 @@ while true
         when 2
             puts "Enter name to search: "
             name218 = gets
-            managerOfficer.searchOfficerByName(name218).each{ |of| of.toString}
+            managerOfficer.searchOfficerByName(name218).each{ |of| puts of.toString}
         when 3
             managerOfficer.showListInforOfficer
         when 4
