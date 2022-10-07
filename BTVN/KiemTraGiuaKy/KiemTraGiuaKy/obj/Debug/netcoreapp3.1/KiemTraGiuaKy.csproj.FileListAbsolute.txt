@@ -1,0 +1,14 @@
+C:\Users\nguye\source\repos\KiemTraGiuaKy\KiemTraGiuaKy\bin\Debug\netcoreapp3.1\KiemTraGiuaKy.exe
+C:\Users\nguye\source\repos\KiemTraGiuaKy\KiemTraGiuaKy\bin\Debug\netcoreapp3.1\KiemTraGiuaKy.deps.json
+C:\Users\nguye\source\repos\KiemTraGiuaKy\KiemTraGiuaKy\bin\Debug\netcoreapp3.1\KiemTraGiuaKy.runtimeconfig.json
+C:\Users\nguye\source\repos\KiemTraGiuaKy\KiemTraGiuaKy\bin\Debug\netcoreapp3.1\KiemTraGiuaKy.runtimeconfig.dev.json
+C:\Users\nguye\source\repos\KiemTraGiuaKy\KiemTraGiuaKy\bin\Debug\netcoreapp3.1\KiemTraGiuaKy.dll
+C:\Users\nguye\source\repos\KiemTraGiuaKy\KiemTraGiuaKy\bin\Debug\netcoreapp3.1\KiemTraGiuaKy.pdb
+C:\Users\nguye\source\repos\KiemTraGiuaKy\KiemTraGiuaKy\obj\Debug\netcoreapp3.1\KiemTraGiuaKy.csproj.AssemblyReference.cache
+C:\Users\nguye\source\repos\KiemTraGiuaKy\KiemTraGiuaKy\obj\Debug\netcoreapp3.1\KiemTraGiuaKy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguye\source\repos\KiemTraGiuaKy\KiemTraGiuaKy\obj\Debug\netcoreapp3.1\KiemTraGiuaKy.AssemblyInfoInputs.cache
+C:\Users\nguye\source\repos\KiemTraGiuaKy\KiemTraGiuaKy\obj\Debug\netcoreapp3.1\KiemTraGiuaKy.AssemblyInfo.cs
+C:\Users\nguye\source\repos\KiemTraGiuaKy\KiemTraGiuaKy\obj\Debug\netcoreapp3.1\KiemTraGiuaKy.csproj.CoreCompileInputs.cache
+C:\Users\nguye\source\repos\KiemTraGiuaKy\KiemTraGiuaKy\obj\Debug\netcoreapp3.1\KiemTraGiuaKy.dll
+C:\Users\nguye\source\repos\KiemTraGiuaKy\KiemTraGiuaKy\obj\Debug\netcoreapp3.1\KiemTraGiuaKy.pdb
+C:\Users\nguye\source\repos\KiemTraGiuaKy\KiemTraGiuaKy\obj\Debug\netcoreapp3.1\KiemTraGiuaKy.genruntimeconfig.cache
